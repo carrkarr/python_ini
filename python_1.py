@@ -1,4 +1,5 @@
-# -*- coding: encoding -*-
+# -*- coding: utf-8 -*-
+
 """"
 El intérprete y su entorno Codiﬁcación del código fuente Por default, 
 los archivos fuente de Python son tratados como codificados en UTF-8. 
@@ -22,6 +23,17 @@ sección sobre codecs. Por ejemplo, si tu editor no soporta la codificación
 UTF-8 e insiste en usar alguna otra, digamos Windows-1252, podés escribir: 
 # -*- coding: cp-1252 -*-
 """
+
+"""
+Para documentar un programa se utiliza triple comilla  como en el caso que lo estamos haciendo 
+(); no se debe de exagerar con la documentación en los programas; en este caso
+se exagerra por que es didáctico; otra forna de comentar es con con  un
+# .....texto 
+"""
+
+# hagamos nuestro hola mundo
+print('Hola mundo')
+
 
 
 
